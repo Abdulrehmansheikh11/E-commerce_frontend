@@ -1,0 +1,274 @@
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1566355800052-c1fff02fcbae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAyfHxoZWFkcGhvbmV8ZW58MHx8MHx8fDA%3D");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.cross{
+    position: absolute;
+    top: 5rem;
+    left:1rem;
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.cross:hover{
+  background-color: #1B2631;
+  color: #fff;
+}
+
+
+
+.parent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.176); /* Adjust opacity (the last value) to control darkness */
+  }
+.forms{
+    width: 28vw ;
+    height: 50vh;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+}
+
+.forms input{
+    padding: 10px;
+    width: 25vw;
+    height: 14px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+   border: none;
+}
+
+ .forms input:focus {
+    outline: none; /* Remove the default focus outline */
+  
+  }
+
+.forms button{
+  
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1B2631;
+    color: white;
+    font-size: 15px;
+    width: 26vw;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.forms h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: #1B2631;
+}
+.forms p{
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.brands{
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1B2631;
+}
+
+
+.line {
+    border-top: 1px solid black; /* You can adjust the color, width, and style as needed */
+    margin: 20px 0; /* Optional: Add margin for spacing */
+    font-family: sans-serif;
+}
+
+
+
+.link{
+  color: #1B2631;
+    font-size: 19px;
+}
+
+
+@media only screen and (max-width: 1099px) {
+    .forms{
+        width: 35vw;
+        height: 50vh;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+    }
+
+
+    .forms input{
+        padding: 10px;
+        width: 32vw;
+        height: 15px;
+        font-size: 20px;
+        margin: 10px;
+        border-radius: 5px;
+       border: none;
+    }
+
+    .forms button{
+  
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1B2631;
+        color: white;
+        font-size: 15px;
+        width: 33vw;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+
+    .cross:hover{
+        background-color: #1B2631;
+        color: #fff;
+      }
+}
+
+@media only screen and (max-width: 930px) {
+
+    .forms{
+        width: 45vw;
+        height: 50vh ;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+    }
+
+
+    .forms input{
+        padding: 10px;
+        width: 40vw;
+        height: 15px;
+        font-size: 20px;
+        margin: 10px;
+        border-radius: 5px;
+       border: none;
+    }
+
+    .forms button{
+  
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1B2631;
+        color: white;
+        font-size: 15px;
+        width: 42vw;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+
+    .forms{
+        width: 55vw;
+        height: 50vh;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+    }
+
+
+    .forms input{
+        padding: 10px;
+        width: 50vw;
+        height: 15px;
+        font-size: 20px;
+        margin: 10px;
+        border-radius: 5px;
+       border: none;
+    }
+
+    .forms button{
+  
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1B2631;
+        color: white;
+        font-size: 15px;
+        width: 52vw;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 415px) {
+
+    .forms{
+        width: 75vw;
+        height:  auto;
+        background: transparent;
+        backdrop-filter: blur(20px);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.348); 
+    }
+
+
+    .forms input{
+        padding: 10px;
+        width: 65vw;
+        height: 15px;
+        font-size: 20px;
+        margin: 10px;
+        border-radius: 5px;
+       border: none;
+    }
+
+    .forms button{
+  
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #1B2631;
+        color: white;
+        font-size: 15px;
+        width: 70vw;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}

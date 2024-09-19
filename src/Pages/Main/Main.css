@@ -1,0 +1,864 @@
+.category-list {
+    display: flex;
+    overflow-x: auto;
+    background-color: black;
+    color: #f0f0f0c0;
+    font-family: sans-serif;
+    margin-top: 80px;
+}
+
+
+.category-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 12px;
+
+}
+
+.category-list ul li {
+    font-size: 20px;
+    /* Set the desired font size */
+    font-weight: 100;
+    /* Set a very light font weight */
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.category-list ul li::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.category-list ul li:hover::after {
+    transform: scaleX(1);
+}
+
+.category-list ul li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last item */
+}
+
+
+.category-list-dark {
+    display: flex;
+    overflow-x: auto;
+    background-color: #2C3E50;
+    color: #f0f0f0c0;
+    font-family: sans-serif;
+}
+
+
+
+
+.category-list-dark ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 12px;
+
+}
+
+.category-list-dark ul li {
+    font-size: 20px;
+    /* Set the desired font size */
+    font-weight: 100;
+    /* Set a very light font weight */
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.category-list-dark ul li::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.category-list-dark ul li:hover::after {
+    transform: scaleX(1);
+}
+
+.category-list-dark ul li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last item */
+}
+
+
+/*............................image silder..............................*/
+
+
+.pap {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    font-family: sans-serif;
+
+
+}
+
+.pap p {
+    margin: 0;
+
+
+}
+
+.pap h2 {
+    margin: 0;
+    margin-left: 10px;
+
+}
+
+.p1 {
+    background-image: url("../../assets/main-banner-1.jpg");
+    background-size: cover;
+    width: 650vw;
+    height: 54vh;
+    background-position: center;
+    /* Center the background image within the container */
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 0;
+}
+
+.p1 button {
+    width: 100px;
+    padding: 8px;
+    border-radius: 30px;
+    color: #f0f0f0;
+    background-color: #1B2631;
+    border: none;
+    margin-top: 30px;
+}
+
+.ajob {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.ajob h1 {
+    margin-bottom: 5px;
+}
+
+.p5 {
+    background-image: url("../../assets/catbanner-01.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 26vh;
+    background-position: center;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.p6 {
+    background-image: url("../../assets/catbanner-02.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 26vh;
+    background-position: center;
+    margin: 10px;
+}
+
+.p7 {
+    background-image: url("../../assets/catbanner-03.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 26vh;
+    background-position: center;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.p8 {
+    background-image: url("../../assets/catbanner-04.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 26vh;
+    background-position: center;
+    margin: 10px;
+}
+
+.p2 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.p5 p {
+    margin: 10px;
+}
+
+.p6 p {
+    margin: 10px;
+}
+
+.p7 p {
+    margin: 10px;
+}
+
+.p8 p {
+    margin: 10px;
+}
+
+.sip {
+    max-width: 150px;
+}
+
+.sip2 p {
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.ag {
+    font-weight: bolder;
+    color: darkred;
+    font-size: 20px;
+
+}
+
+.sec2 {
+    display: inline-flex;
+    margin-left: 45%;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding: 8px;
+    background-color: rgba(255, 128, 0, 0.837);
+    color: white;
+    margin-top: 3%;
+    border-radius: 20px;
+    font-size: 30px;
+
+}
+
+@media only screen and (max-width: 1255px) {
+
+
+    .p5 {
+        background-image: url("../../assets/catbanner-01.jpg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 42vw;
+        height: 26vh;
+        background-position: center;
+        margin: 10px;
+        margin-bottom: 15px;
+    }
+
+    .p6 {
+        background-image: url("../../assets/catbanner-02.jpg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 42vw;
+        height: 26vh;
+        background-position: center;
+        margin: 10px;
+    }
+
+    .p7 {
+        background-image: url("../../assets/catbanner-03.jpg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 42vw;
+        height: 26vh;
+        background-position: center;
+        margin: 10px;
+        margin-bottom: 15px;
+    }
+
+    .p8 {
+        background-image: url("../../assets/catbanner-04.jpg");
+        background-size: cover;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 42vw;
+        height: 26vh;
+        background-position: center;
+        margin: 10px;
+    }
+
+    .pap {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 445px) {
+    .p1 {
+        background-size: cover;
+        height: 100% auto;
+        background-position: center;
+        background-size: cover;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .pap {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+
+    .p7 {
+        height: 50%;
+        width: 90%;
+
+    }
+
+    .p8 {
+        height: 50%;
+        width: 90%;
+    }
+
+    .p5 {
+        height: 50%;
+        width: 90%;
+    }
+
+    .p6 {
+        height: 50%;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    .banner img {
+        height: 10vh;
+    }
+
+    .banner1 h1 {
+        font-size: 3vw;
+    }
+
+    .banner p {
+        font-size: 3vw;
+    }
+
+    .secf h1 {
+        background-color: pink;
+    }
+
+
+
+
+}
+
+
+.secf h1 {
+    background-color: gold;
+    display: inline-flex;
+    position: relative;
+    left: 40%;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+}
+
+/*..............................................................*/
+
+
+.service1 h2 {
+    font-size: 1vw;
+    margin-bottom: 0;
+}
+
+.service1 p {
+    margin-top: 0;
+    font-size: 1vw;
+}
+
+.service2 {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.service img {
+    width: 3vw;
+    margin-right: 15px;
+}
+
+.service img {
+    position: relative;
+    top: 20%;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: #f0f0f0;
+    margin-top: 40px;
+}
+
+/*.............................................................................*/
+.cardi {
+
+    height: 45vh;
+    padding: 20px;
+    width: 280px;
+    /* Set a fixed width for your product cards */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    /* Example border for visualization */
+    margin: 10px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244);
+
+}
+
+
+.clone {
+
+    height: 45vh;
+    padding: 20px;
+    width: 300px;
+    /* Set a fixed width for your product cards */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    /* Example border for visualization */
+    margin: 30px;
+    margin-left: 35px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244);
+}
+
+.clone img {
+    width: 260px;
+    height: 25vh;
+}
+
+.clone h2 {
+    max-width: 280px;
+    font-family: sans-serif;
+    margin: 0;
+
+
+}
+
+
+.card-containeri {
+    height: auto;
+    background-color: #f0f0f0;
+
+}
+
+
+.clone h2 {
+
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.but {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+}
+
+.sec {
+    height: 65vh;
+    background-color: #f0f0f0;
+
+}
+
+
+
+
+.sec1 {
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    border-bottom-right-radius: 20px;
+    margin-top: 0;
+}
+
+.start
+
+.stari {
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.buni {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buni button {
+    background-color: #1B2631;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.st {
+    color: orange;
+}
+
+/*.................................category.....................................*/
+.ci {
+
+    height: 35vh;
+    width: 250px;
+    /* Set a fixed width for your product cards */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 40px;
+    margin-bottom: 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244);
+    background-color: white;
+
+}
+
+.ci img {
+    max-width: 200px;
+}
+
+.ci1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.abc {
+    background-color: white;
+}
+
+
+
+.ci2 {
+    max-width: 95%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.size {
+    background-color: #1b2631f7;
+    color: white;
+    margin-top: 0;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.size-dark {
+    background-color: #1C2833;
+    color: white;
+    margin-top: 0;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+/*...................................banner......................*/
+.banner {
+    display: flex;
+    background: white;
+    justify-content: space-around;
+    font-family: sans-serif;
+    padding: 20px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    margin: 20px;
+    margin-top: 40px;
+    width: 1500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244);
+    border-radius: 10px;
+
+}
+
+.banner img {
+    width: 40vw;
+}
+
+.banner1 h1,
+h2 {
+    margin: 15px;
+    margin-left: 0;
+
+}
+
+.ban3 {
+    font-size: 50px;
+    color: darkred;
+}
+
+.banner1 button {
+    font-size: 20px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    background-color: #1B2631;
+    color: white;
+    border-radius: 20px;
+}
+
+.banner4 {
+
+    height: 70vh;
+    display: flex;
+    align-items: center;
+
+    background-color: #f0f0f0;
+
+}
+
+.banner4-dark {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.865);
+
+}
+
+.ban6 {
+    background-color: darkred;
+    color: white;
+    display: inline-block;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.sec2 {
+    display: inline-flex;
+    margin-left: 45%;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding: 8px;
+    background-color: rgba(255, 128, 0, 0.837);
+    color: white;
+    margin-top: 3%;
+    border-radius: 20px;
+    font-size: 30px;
+
+}
+
+.secf {
+    height: 75vh;
+    background-color: #f0f0f0;
+}
+
+.secf-dark {
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.871);
+    border: 1px solid white;
+}
+
+/*.......................................brands..........*/
+
+.start {
+    height: 30vh auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+
+.brand {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 10px;
+   
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.brand img {
+    width: 150px;
+    height: 20vh;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 440px) {
+   .brand img {
+        width: 100px;
+        height: 10vh;
+        display: flex;
+        border-radius: 0%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244);
+        padding: 10px;
+        margin: 10px;
+      
+    }
+    
+}
+
+.section {
+    height: 100vh;
+}
+
+.secf
+
+.banners {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin: 20px;
+    margin-top: 40px;
+    width: 1500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244);
+    border-radius: 20px;
+}
+
+.banners img {
+    max-width: 1200px;
+    height: 50vh;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    clip-path: polygon(21.8% 0%, 100% 0%, 100% 100%, 0.8% 100%);
+
+}
+
+.banners1 {
+    padding: 40px;
+}
+
+.banners1 h1,
+h2 {
+    margin: 15px;
+    margin-left: 0;
+}
+
+.ban33 {
+    font-size: 50px;
+    color: #1B2631;
+}
+
+.banners1 button {
+    font-size: 20px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    background-color: #1B2631;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+.ban6 {
+    background-color: darkred;
+    color: white;
+    display: inline-block;
+    padding: 7px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.dark-mode {
+    background-color: rgba(0, 0, 0, 0.937);
+}
+
+.light-mode {
+    background-color: white;
+}
+
+
+
+
+.dark {
+    color: white;
+}
+
+.light {
+    color: black;
+}
+
+
+
+
+
+
+
+/*..........................................*/

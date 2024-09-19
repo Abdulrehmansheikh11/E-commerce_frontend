@@ -1,0 +1,167 @@
+
+.container {
+   
+    width: 95%;
+    margin: 0 auto;
+    
+    margin: 10px;;
+    margin-top: 80px;
+   background-color: #cccccc4f;
+   border-radius: 10px;
+   min-height: 70vh;
+  }
+
+ .dark-contanier{
+  width: 95%;
+  margin: 0 auto;
+  margin: 20px;;
+  margin-left: 35px;
+ background-color: black ;
+ border-radius: 10px;
+ min-height: 70vh;
+ }
+  
+  .sin{
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  .cons{
+    font-family: fantasy;
+    text-align: center;
+    padding: 20px;
+    color: #1B2631
+  }
+
+  .dark-contanier .cons{
+    font-family: fantasy;
+    text-align: center;
+    padding: 20px;
+    color: #ffffffc3;
+  }
+
+.cardi{
+  width: 260px;
+    height: 48vh;
+    padding: 20px;
+   margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.244); 
+}
+
+  
+  .left-section {
+    width: 20%;
+    
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    height: 80vh;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+  }
+
+
+
+ 
+
+.cards img {
+    width: 250px;
+    height: 25vh;
+}
+
+.cardi h2 {
+    max-width: 280px;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+
+.card-containeri {
+    
+   background-color: #f0f0f0;
+
+}
+
+
+
+.cardi h2{
+  
+    padding: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.but{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    padding:20px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+}
+
+.sec{
+    height: 65vh;
+    background-color: #f0f0f0;
+    
+}
+
+.sec1{
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    border-bottom-right-radius: 20px;
+    margin-top: 0;
+}
+
+.star{
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    display: flex;
+flex-direction: row;
+}
+
+
+.buni{
+    display: flex;
+    justify-content: space-between;
+}
+.buni button{
+   background-color: #1B2631;
+   color: white;
+   border: none;
+   border-radius: 3px;
+   font-size: 15px;
+}
+
+.st{
+    color: orange;
+}
+
+
+.heart{
+    position: relative;
+    right: 45%;
+    color: darkred;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: gray;
+}
